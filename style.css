@@ -1,0 +1,108 @@
+html{
+    width: max-content;
+}
+
+
+
+#h1{
+    background: linear-gradient(60deg, red, blue, white, lime, orange);
+    color: black;
+    text-align: center;
+    font-size: 4vh;
+    direction: ltr;
+}
+
+
+.cd{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+
+    
+
+}
+
+.cd > .container{
+    border: 2px lavender solid; 
+    width: 400px;
+    height: 500px;
+}
+
+ /* .cd> .container:hover{
+    background: linear-gradient(to left,orange, lime, white);
+} */
+
+
+.container img{
+    width: 70%;
+    height: 50%;
+    border-radius: 50%; 
+    margin: auto;
+    display: block;
+    padding: 20px;
+       
+}
+
+/* img{
+    margin: auto;
+    display: block;
+   
+} */
+.container img{
+    transition: all 2s ease-in-out;
+
+}
+
+
+.PopMasge { 
+    border: 1px white solid;
+    color:white;
+    height: 100px;
+    align-content: center;
+
+}
+
+.PopMasge:hover{
+    background-color: pink;
+    color: teal;
+}
+
+
+
+.container > img:hover{   
+    cursor: pointer;
+    transform: rotate(360deg);
+    background: linear-gradient(to left, red, blue, yellow, orange, lime, white)
+}
+
+
+
+/* .rotate{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px black solid;
+    transition: all 2s ease-in-out;
+} */
+
+/* .rotate:hover{
+    transform: rotate(360deg);
+} */
+
+.SongPlay{
+    margin: auto;
+    padding-bottom: 2px;
+}
+
+
+
+.container > .NameLbl > .lbl{
+    color: cadetblue;
+    text-align: right;
+    padding-left: 33%;
+    font-size: 4vh;
+    font-style: italic;
+    cursor: pointer;
+    text-align: top 10px;
+}
