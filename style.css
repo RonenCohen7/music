@@ -106,3 +106,9 @@ html{
     cursor: pointer;
     text-align: top 10px;
 }
+
+.LineInFooter{
+    text-align: center;
+    font-size: medium;
+    font-family: inherit;
+}
