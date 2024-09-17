@@ -95,12 +95,19 @@ html{
     padding-bottom: 2px;
 }
 
-
+.linkToTalentPagh{
+    padding: 10px;
+    top:0;
+    font-size: 15px;
+}
+.linkToTalentWeb{
+    font-size: 15px;
+}
 
 .container > .NameLbl > .lbl{
     color: cadetblue;
     text-align: right;
-    padding-left: 33%;
+    padding-left: 30%;
     font-size: 4vh;
     font-style: italic;
     cursor: pointer;
@@ -112,3 +119,23 @@ html{
     font-size: medium;
     font-family: inherit;
 }
+
+
+.NameTalent{
+    color: red;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.NameTalent > img{
+    border: 2px red solid;
+    background-color: lightpink
+}
+
+.p_talent{
+    color: cornflowerblue;
+    text-align: star;
+    display: inline-block;
+    
+
